@@ -27,6 +27,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create(IFormCollection collection)
+        // Changes Sprint 2 -- As a system administrator, I want to serve hundreds of users concurrently -- Joseph Vo
         {
             try
             {
@@ -40,6 +41,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
 
         // GET: MessageController/Edit/5
         public ActionResult Edit(int id)
+        // Changes Sprint 2 -- As a system administrator, I want to serve hundreds of users concurrently -- Joseph Vo
         {
             return View();
         }
@@ -48,6 +50,7 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Edit(int id, IFormCollection collection)
+        // Changes Sprint 2 -- As a system administrator, I want to serve hundreds of users concurrently -- Joseph Vo
         {
             try
             {

@@ -12,6 +12,7 @@
         public int RoomId1 { get => RoomId; set => RoomId = value; }
 
         public string Name
+        // Changes Sprint 2 -- As a system administrator, I want to serve hundreds of users concurrently -- Joseph Vo
         {
             get;
             private set;
