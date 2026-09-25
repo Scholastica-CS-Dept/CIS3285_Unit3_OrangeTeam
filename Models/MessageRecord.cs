@@ -4,6 +4,7 @@
     {
         public MessageRecord(int roomID, string authorName, string text)
         {
+            // Changes Sprint 2 -- User Story 2A -- Sydney Schaefer
             RoomID = roomID;
             Text = text;
             AuthorName = authorName;
@@ -15,6 +16,7 @@
             private set;
         }
 
+        // Changes Sprint 2 -- User Story 2A -- Sydney Schaefer
         public string Text
         {
             get;
