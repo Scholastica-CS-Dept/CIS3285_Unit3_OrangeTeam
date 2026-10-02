@@ -10,19 +10,28 @@ namespace CIS3285_Unit3Sample_2024.Controllers
         {
             return View();
         }
+         // Changes for Sprint 1 -- User Story -- Cosmas Mandikonza
+         // Changes Sprint 1b -- As a message reading user, I want to view a list of rooms that represent conversations
+         //  Changes for Sprint 2 -- User Story -- Cosmas Mandikonza
+         // Changes Sprint 2b --  As a message reading user, I want to filter message content so that it is appropriate.
 
         // GET: MessageController/Details/5
         public ActionResult Details(int id)
         {
             return View();
         }
+         // Changes for Sprint 1 -- User Story -- Cosmas Mandikonza
 
+         // Changes Sprint 1b -- As a message reading user, I want to view a list of rooms that represent conversations
+         //  Changes for Sprint 2 -- User Story -- Cosmas Mandikonza
+         // Changes Sprint 2b --  As a message reading user, I want to filter message content so that it is appropriate.
         // GET: MessageController/Create
         public ActionResult Create()
         {
             return View();
         }
-
+         // Changes for Sprint 1 -- User Story -- Cosmas Mandikonza
+         // Changes Sprint 1b -- As a message reading user, I want to view a list of rooms that represent conversations
         // POST: MessageController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
